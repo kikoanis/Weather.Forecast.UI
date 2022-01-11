@@ -39,3 +39,5 @@ You can create an optimized production build with:
 ```
 npm run build-prod
 ```
+
+![image](https://user-images.githubusercontent.com/615849/148955273-350f1a0f-905b-4152-b04f-65435dcfbaa2.png)
