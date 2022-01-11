@@ -40,4 +40,6 @@ You can create an optimized production build with:
 npm run build-prod
 ```
 
+Two cities are saved already. If you want to add more just search for a city in the auto complete field next to "Search City", select and save.
+
 ![image](https://user-images.githubusercontent.com/615849/148955273-350f1a0f-905b-4152-b04f-65435dcfbaa2.png)
