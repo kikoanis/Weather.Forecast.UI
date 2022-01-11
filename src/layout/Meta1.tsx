@@ -81,7 +81,7 @@ const Meta = (props: IMetaProps) => {
                             ? 'bg-gray-900'
                             : 'hover:text-white hover:bg-gray-700'
                         } text-white px-3 py-2 rounded-md text-md font-medium`}
-                        aria-current={router.asPath === '/' ? 'page' : ''}
+                        aria-current={router.asPath === '/'}
                       >
                         Home
                       </a>
@@ -106,7 +106,7 @@ const Meta = (props: IMetaProps) => {
                             ? 'bg-gray-900'
                             : 'hover:text-white hover:bg-gray-700'
                         } text-white px-3 py-2 rounded-md text-md font-medium`}
-                        aria-current={router.asPath === '/about/' ? 'page' : ''}
+                        aria-current={router.asPath === '/about/'}
                       >
                         About
                       </a>
@@ -167,7 +167,7 @@ const Meta = (props: IMetaProps) => {
                       ? 'bg-gray-900'
                       : 'hover:text-white hover:bg-gray-700'
                   }  text-white block px-3 py-2 rounded-md text-base font-medium`}
-                  aria-current={router.asPath === '/' ? 'page' : ''}
+                  aria-current={router.asPath === '/'}
                 >
                   Home
                 </a>
@@ -192,7 +192,7 @@ const Meta = (props: IMetaProps) => {
                       ? 'bg-gray-900'
                       : 'hover:text-white hover:bg-gray-700'
                   } text-white block px-3 py-2 rounded-md text-base font-medium`}
-                  aria-current={router.asPath === '/about/' ? 'page' : ''}
+                  aria-current={router.asPath === '/about/'}
                 >
                   About
                 </a>

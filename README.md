@@ -7,7 +7,7 @@
 Run the following command on your local environment:
 
 ```
-git clone 
+git clone https://github.com/kikoanis/Weather.Forecast.UI.git
 cd Weather-Forecast-UI
 npm install
 ```
