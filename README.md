@@ -12,13 +12,15 @@ cd Weather-Forecast-UI
 npm install
 ```
 
+# You need to first to run the other API project and open it at http//:localhost:5000
+
 Then, you can run locally in development mode with live reload:
 
 ```
 npm run dev 
 ```
 
-Open http://localhost:3000 with your favorite browser to see your project.
+Open <http://localhost:3000> with your favorite browser to see project.
 
 
 ### Production
