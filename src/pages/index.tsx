@@ -102,7 +102,7 @@ const Index = () => {
       }
     });
   }, [data?.cityList, woeId]);
-
+  console.log(activeCity);
   return (
     <Main
       meta={
@@ -120,7 +120,7 @@ const Index = () => {
           <Menu as="div" className="relative inline-block text-left w-48 -mt-2">
             <div>
               <Menu.Button className="inline-flex justify-between w-full rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500">
-                {activeCity ? activeCity.title : 'Select a City'}
+                {activeCity?.title ? activeCity.title : 'Select a City'}
                 <ChevronDownIcon
                   className="-mr-1 ml-2 h-5 w-5"
                   aria-hidden="true"
@@ -188,6 +188,7 @@ const Index = () => {
         />
 
         <button
+          disabled={!woeId}
           type="button"
           onClick={saveCity}
           className="-mt-3 inline-flex flex-column justify-center rounded-md border border-transparent shadow-sm px-4 py-2 bg-teal-800 text-base font-medium text-white hover:bg-slate-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-slate-600 sm:ml-3 sm:w-auto sm:text-sm"
